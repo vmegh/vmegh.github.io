@@ -1,0 +1,126 @@
+/* From view-source:https://necolas.github.io/normalize.css/ */
+
+html {
+  background-color: #0a0a0a; /*Ivory  FF FF F0 */
+  /*color: #333;*/
+  /*font: 18px/1.4 sans-serif;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /*font-weight: 500;*/
+  /*background-image: url('../pictures/helsinki-arao.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; */
+}
+
+body {
+  max-width: 1500px;
+  padding: 20px 40px;
+  margin: 0 auto;
+  opacity: 0.975;
+  line-height: 1.4;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Make sure only the links are colored */
+/* http://www.color-hex.com/color/fb6b00 */
+a:link{
+  color: #000caf;
+}
+a:hover,
+a:focus,
+a:active {
+/* http://www.color-hex.com/color/fb0012*/
+  color: #0012fb;
+  background-color: #fee5e7;
+  text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4{
+  line-height: 1.2;
+  font-family: 'Source Sans Pro', sans-serif;
+  /*color: #fb6b00;*/
+  color: #fbfbfb;
+}
+
+/*h3, 
+h4 {
+ color: #6699cc; 
+}*/
+
+p {
+  margin: 1em 0;
+}
+
+li {
+  margin: 0em 0em 1em 0em;
+}
+
+table {
+  border-collapse: separate; 
+  border-spacing: 0.5em 0.25em;
+}
+
+td {
+  vertical-align: top;
+}
+
+small {
+  font-size: x-small;	
+}
+
+.txt-hl {
+  color: #fb0012;
+}
+
+/* structure */
+
+.main-body {
+  padding: 20px;
+  margin: 0 0 1em;
+  background-color: #00000a; /*FF FF FA */
+  text-align: left;
+  box-shadow: 2px 4px 6px 1px rgba(50, 50, 50, 0.14);
+}
+
+.main-footer {
+  padding: 10px;
+  width: 95%;
+  margin: 0 auto;
+  background-color: #fffffd; /* Misty Rose */
+  line-height=1; 
+  font-size: x-small;
+  /*box-shadow: 2px 4px 6px 1px rgba(50, 50, 50, 0.14);*/
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    font-size: 0.8em;
+  }
+  .read-more {
+    float: none;
+    display: block;
+    margin: 0 0 1em;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  body {
+    padding: 10px;
+    font-size: 0.7em;
+  }
+
+  .main-body {
+    padding: 10px;
+  }
+}
+
+
+
